@@ -39,7 +39,7 @@ random_question() {
 if [ $score -eq 8 ]; then
     echo "Congratulations! You answered all questions correctly."
     echo "Here's your flag: FLAG123"
-    echo "maybe you will go to link chalange you link with 72 and 101"
+    echo "maybe you will go to link chalange you link with gdpr's applicable year  and non EU countries"
 else
     echo "You didn't answer all questions correctly. Better luck next time!"
     echo "Bonus question:"

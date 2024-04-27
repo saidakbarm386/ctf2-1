@@ -37,14 +37,14 @@ move_files() {
 }
 
 # Create main directories
-mkdir -p {dir1,dir2,dir3}
+mkdir -p {flow_and_export,dir2,dir3}
 
 # Create subdirectories and pcap files recursively
-create_directories "$HOME/Desktop/func" 2 3
+create_directories "$HOME/func" 2 3
 
-rm "$HOME/Desktop/func/dir1/dir1/flow_and_export_7.pcap"
+rm "$HOME/func/flow_and_export/flow_and_export/flow_and_export_7.pcap"
 
 # Move files from desktop to another directory
-move_files "$HOME/Desktop/flow_and_export_7.pcap" "$HOME/Desktop/func/dir1/dir1/"
+move_files "$HOME/flow_and_export_7.pcap" "$HOME/func/flow_and_export/flow_and_export/"
 
 echo "Directory structure and files created successfully."
