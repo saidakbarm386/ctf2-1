@@ -1,0 +1,1 @@
+search for a script file called pass.sh and take password from this script. 
