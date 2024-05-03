@@ -4,7 +4,7 @@
 flag_folder="flag"
 flag_file="flags/flags.txt"
 
-
+#alisher
 create_flag() {
    
     if [ ! -d "$flag_folder" ]; then
