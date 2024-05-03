@@ -2,19 +2,19 @@
 
 
 flag_folder="flag"
-flag_file="flag/flag.txt"
+flag_file="flags/flags.txt"
 
 
 create_flag() {
    
     if [ ! -d "$flag_folder" ]; then
-        echo "Flag folder not found. Please create it and put flag.txt inside."
+        echo "Flags folder not found. Please create it and put flags.txt inside."
         exit 1
     fi
     
  
     if [ ! -f "$flag_file" ]; then
-    echo "Flag folder not found. Please create it and put flag.txt inside."
+    echo "Flags folder not found. Please create it and put flags.txt inside."
         exit 1
     fi
 }
@@ -35,13 +35,12 @@ You can make it impossible to access the Music folder in Windows with the user i
     fi
 }
 
-# Main function
 main() {
     create_flag
     display_flag
 }
 
-# Execute main function
+
 main
 
 
